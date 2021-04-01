@@ -41,7 +41,7 @@ export default function Home() {
         </p>
 
           <div className={styles.ar}>
-          
+
             {/* <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> */}
             <model-viewer
 
@@ -72,7 +72,7 @@ export default function Home() {
 
               src="images/Sun.glb"
               ios-src="images/Sun.usdz"
-              shadow-intensity="1"
+              shadow-intensity="1"  //change sun so no shadow
               shadow-softness="1"
               camera-controls
               auto-rotate
@@ -85,23 +85,37 @@ export default function Home() {
             <div>
               <a rel="ar" href="images/toy_drummer.usdz">
                 <img src="images/toyDrummer.png" />
-               </a>
+              </a>
             </div>
-       
-            </div>
+
+           <model-viewer 
+             src="https://github.com/nohren/my-portfolio/raw/master/_includes/models/new_backyard_gem.glb" i
+             os-src="https://github.com/nohren/my-portfolio/raw/master/_includes/models/new_backyard_gem.usdz#allowsContentScaling=0"
+             poster="https://github.com/nohren/my-portfolio/raw/master/_includes/models/backyard_gem_image.png"
+             alt="You know you want to build me" 
+             shadow-intensity="1" 
+             camera-controls 
+             auto-rotate 
+             ar 
+             ar-scale="fixed" 
+             data-js-focus-visible 
+             ar-status="not-presenting">
+           </model-viewer>
+
           </div>
+        </div>
       </main>
 
-        <footer className={styles.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-          </a>
-        </footer>
+      <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        </a>
+      </footer>
     </div>
   )
 }
