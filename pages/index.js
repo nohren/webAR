@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>AR playground</title>
         <link rel="icon" href="/favicon.ico" />
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
       </Head>
 
       <main className={styles.main}>
@@ -40,7 +41,7 @@ export default function Home() {
         </p>
 
           <div className={styles.ar}>
-            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+          
             {/* <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> */}
             <model-viewer
 
@@ -82,7 +83,7 @@ export default function Home() {
             >
             </model-viewer>
             <div>
-              <a rel="ar" href="images/toyDrummer.usdz">
+              <a rel="ar" href="images/toy_drummer.usdz">
                 <img src="images/toyDrummer.png" />
                </a>
             </div>
