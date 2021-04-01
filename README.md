@@ -1,2 +1,0 @@
-# webAR
-ar testing ground
