@@ -114,6 +114,13 @@
   height: 1em;
 }
 
+.ar {
+    
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
