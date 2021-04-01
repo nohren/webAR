@@ -88,7 +88,7 @@ export default function Home() {
               </a>
             </div>
 
-           <model-viewer 
+           {/* <model-viewer 
              src="https://github.com/nohren/my-portfolio/raw/master/_includes/models/new_backyard_gem.glb" i
              os-src="https://github.com/nohren/my-portfolio/raw/master/_includes/models/new_backyard_gem.usdz#allowsContentScaling=0"
              poster="https://github.com/nohren/my-portfolio/raw/master/_includes/models/backyard_gem_image.png"
@@ -100,7 +100,7 @@ export default function Home() {
              ar-scale="fixed" 
              data-js-focus-visible 
              ar-status="not-presenting">
-           </model-viewer>
+           </model-viewer> */}
 
           </div>
         </div>
