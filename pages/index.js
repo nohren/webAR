@@ -99,7 +99,6 @@ export default function Home() {
              ar 
              ar-scale="fixed" 
              data-js-focus-visible 
-             ar-status="not-presenting">
            </model-viewer> */}
 
           </div>
