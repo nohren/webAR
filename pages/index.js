@@ -72,8 +72,8 @@ export default function Home() {
 
               src="images/Sun.glb"
               ios-src="images/Sun.usdz"
-              shadow-intensity="1"  //change sun so no shadow
-              shadow-softness="1"
+              // shadow-intensity="1"  
+              // shadow-softness="1"
               camera-controls
               auto-rotate
               ar
